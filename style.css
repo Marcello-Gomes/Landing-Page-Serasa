@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.img-logo1 {
+    padding-left: 1em;
+}
+
+.cabecalho-logo {
+    display: inline-block;
+    padding: 1.5em;
+}
+.cabecalho-header {
+    display: inline-block;
+    font-size: 1em;
+    margin-left: 8em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.cabecalho-nave {
+    display: inline-block ;
+    margin-left: 5em;
+    align-items: right;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+.logo-face {
+    margin-left: 4em;
+}
+
+.button-nave {
+    background-color: transparent;
+    margin-left: 15em;
+    transform: none;
+    cursor: pointer;
+}
+
+.main {
+    background:linear-gradient(orange, white, rgb(219, 176, 96));
+}
+
+.hero-menu {
+    margin: 2em;
+    display: flex;
+}
+
+.hero-text {
+    font-size: 3em;
+    margin-right: 5em;
+    padding: 1em;
+    font-weight: bold;
+
+}
+
+.hero-img {
+    flex: 1;
+    align-self: flex-end;
+    display: flex;
+    position: relative;
+}
+
+.img-logo {
+    height: 15em;
+    width: 15em;
+    margin-left: 20em;
+    left: 1.5em;
+    top: 2em;    
+    transition: opa3city 2s ease-in-out;
+}
+
+.absolute-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+p {
+    font-size: 1.2em;
+    padding: 0.2em;
+}
+
+.about {
+    margin: 1em 0.5em 0 2em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.about-btn {
+    margin-right: 10em;
+    padding: 1.5em;
+    background-color: red;
+    color: white;
+    border-radius: 2em;
+    float: right;
+}
+
+.about-text {
+    margin-left: 2em;
+    margin-bottom: 3em;
+    line-height: 1.5em;
+    text-align: justify;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: left;
+    width: 100%;
+
+
+}
+
+.event-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    " destaque . ."
+    " destaque . .";
+    gap: 2em;
+    
+}
+
+.event-item {
+    border: 0.5 em solid black;
+    border-radius: 4em;    
+    width: 25em;
+    height: 20em;   
+    line-height:2em ;
+
+}
+
+.event-destaque {
+    grid-area: destaque;
+    height: 30em;
+    padding: 1em 1em 0 1em;
+    line-height: 2em;
+}
+
+.event-img1 {
+    width: 21em;
+    height: 41em;
+    border-radius:1em ;
+}
+
+.event-img {
+    width: 23em;
+    height: 19em;
+    border-radius: 1em;
+   
+}
+
+.legend {
+    text-align: center;
+}
+
+#location {
+   
+    padding: 7.6em 5.2em 2.8em;   
+    text-align: center;
+    gap: 1.2em;
+}
+
+.title {
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: bold;
+}
+
+.overtitle {
+    font-size: 2em;
+    line-height: 24px;
+    color: #E5383B;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.footer {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    padding: 2.4em 3.2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: currentColor;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6em;
+}
+
+
+
+
+
+
